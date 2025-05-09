@@ -15,14 +15,14 @@ const projectsData: Project[] = [
     id: "robotic-arm",
     title: "Dual Mode Robotic Arm",
     description: "Manual + autonomous robotic arm for precision tasks; demoed live at tech fairs. Implemented both manual control and computer vision for autonomous operation.",
-    images: ["images/robo-1.jpeg", "images/robo-2.jpeg"],
+    images: ["/robo-1.jpeg", "/robo-2.jpeg"],
     link: "https://dual-mode-robotic-arm.netlify.app/"
   },
   {
     id: "green-guardian",
     title: "Green Guardian GO",
     description: "AI-based RVM system with plastic detection, reward mechanism, and mobile integration. Developed for sustainable waste management and recycling incentivization.",
-    images: ["images/GGG.jpeg", "images/GGG DESIGN - .png"],
+    images: ["/GGG.jpeg", "/GGG DESIGN - .png"],
     link: "https://green-guardian-go.netlify.app/"
   },
   {
@@ -36,7 +36,7 @@ const projectsData: Project[] = [
     id: "stair-bottle",
     title: "Stair Water Bottle",
     description: "Ergonomic bottle patented for stair users; recognized in innovation contests. Designed a unique bottle shape that accommodates placement on stairs without tipping.",
-    images: ["images/bottle.png", "images/bottle.png"],
+    images: ["/bottle.png", "/bottle.png"],
     link: "https://stair-water-bottle.netlify.app/"
   }
 ];
