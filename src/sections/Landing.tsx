@@ -101,7 +101,7 @@ const Landing: React.FC = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <img 
-                  src="images/Omkar.png" 
+                  src="/Omkar.png" 
                   alt="Omkara Anjaneya Kumar"
                   className="w-full h-full object-cover"
                   style={{
