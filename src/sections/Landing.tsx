@@ -153,7 +153,7 @@ const Landing: React.FC = () => {
                 backgroundClip: 'text'
               }}
             >
-              "Passionate about innovation, driven by impact."
+            -- Passionate about innovation, driven by impact --
             </motion.p>
           </motion.div>
         </div>
