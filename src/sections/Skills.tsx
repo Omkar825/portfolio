@@ -11,7 +11,7 @@ const skillsData: SkillCategory[] = [
   {
     id: "programming",
     title: "Programming",
-    skills: ["Java", "Python", "HTML", "CSS", "JavaScript"]
+    skills: ["Python", "C", "C++", "HTML", "CSS", "JavaScript"]
   },
   {
     id: "data",
