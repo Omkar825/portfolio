@@ -7,7 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './',
   publicDir: 'images',
   build: {
     rollupOptions: {
