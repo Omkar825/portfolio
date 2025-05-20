@@ -9,4 +9,13 @@ export default defineConfig({
   },
   base: './',
   publicDir: 'images',
+})
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: ['@emailjs/browser'], // <-- Externalize the package
+    },
+  },
 });
