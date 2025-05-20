@@ -1,16 +1,16 @@
+// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  publicDir: 'images',
+  // REMOVE base: './' for Netlify root deploy
   build: {
     rollupOptions: {
-      external: ['@emailjs/browser'], // Externalize the package
+      external: ['@emailjs/browser'],
     },
   },
 });
