@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SocialIcons from '../components/SocialIcons';
 import ScrollDownIcon from '../components/ScrollDownIcon';
 import { motion } from 'framer-motion';
+import profileImage from '../../images/Omkar.png';
 
 const Landing: React.FC = () => {
   const [rotateX, setRotateX] = useState(0);
@@ -101,7 +102,7 @@ const Landing: React.FC = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <img 
-                  src="../../../images/Omkar.png" 
+                  src={profileImage} 
                   alt="Omkara Anjaneya Kumar"
                   className="w-full h-full object-cover"
                   style={{
