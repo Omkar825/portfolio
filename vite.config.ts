@@ -10,7 +10,7 @@ export default defineConfig({
   // REMOVE base: './' for Netlify root deploy
   build: {
     rollupOptions: {
-      external: ['@emailjs/browser'],
+      // Remove external configuration to properly bundle EmailJS
     },
   },
 });
