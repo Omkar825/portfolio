@@ -12,8 +12,5 @@ export default defineConfig({
     rollupOptions: {
       external: ['@emailjs/browser'],
     },
-    // Ensure proper chunking and asset handling
-    chunkSizeWarningLimit: 1000,
-    sourcemap: true
   },
 });
